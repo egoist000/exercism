@@ -1,2 +1,2 @@
 # exercism
-Solutions of exercism problems
+Solutions of [exercism](https://exercism.org/) problems
