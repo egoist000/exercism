@@ -1,6 +1,3 @@
-import string
-
-
 def get_coordinate(record):
     """
 
