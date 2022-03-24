@@ -29,10 +29,9 @@ NUMBERS = {
 }
 
 GIFTS = [
-    "Partridge in a Pear Tree", "Turtle Doves", "French Hens",
-    "Calling Birds", "Gold Rings", "Geese-a-Laying", "Swans-a-Swimming",
-    "Maids-a-Milking", "Ladies Dancing", "Lords-a-Leaping", "Pipers Piping",
-    "Drummers Drumming"
+    "Partridge in a Pear Tree", "Turtle Doves", "French Hens", "Calling Birds",
+    "Gold Rings", "Geese-a-Laying", "Swans-a-Swimming", "Maids-a-Milking",
+    "Ladies Dancing", "Lords-a-Leaping", "Pipers Piping", "Drummers Drumming"
 ]
 
 
@@ -51,6 +50,7 @@ def recite_single_verse(verse):
     res.insert(0, t1)
     return " ".join(res)
 
+
 def recite(start_verse, end_verse):
     i = start_verse
     res = []
@@ -58,4 +58,3 @@ def recite(start_verse, end_verse):
         res.append(recite_single_verse(i))
         i += 1
     return res
-print(recite(1, 12))
